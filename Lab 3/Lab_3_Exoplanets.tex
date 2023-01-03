@@ -1,0 +1,128 @@
+\documentclass[11pt]{article}% uses letterpaper by default
+
+%---------- Uncomment one of them ------------------------------
+\usepackage[includeheadfoot, top=1in, bottom=1in, hmargin=1in]{geometry}
+
+% \usepackage[a5paper, landscape, twocolumn, twoside,
+%    left=2cm, hmarginratio=2:1, includemp, marginparwidth=43pt, 
+%    bottom=1cm, foot=.7cm, includefoot, textheight=11cm, heightrounded,
+%    columnsep=1cm, dvips,  verbose]{geometry}
+%---------------------------------------------------------------
+\usepackage{fancyhdr}
+\usepackage{verbatim}
+\usepackage{url}
+\pagestyle{fancy}
+\usepackage{graphicx}
+\usepackage{setspace}
+%\doublespacing
+\singlespacing
+%\onehalfspacing
+%\newcommand{\exercisename}{}
+
+\rhead{Wednesdays 6-9pm}
+\chead{Exoplanets}
+\lhead{Astronomy Lab I}
+\renewcommand{\rightmark}{}
+\lfoot{Courtney Carter, Jenna Lemonias} \cfoot{\thepage} \rfoot{Fall 2022}
+
+\newcommand{\degrees}{\ensuremath{^\circ}}
+\newcommand{\arcmin}{\ensuremath{'}}
+\newcommand{\arcsec}{\ensuremath{"}}
+\newcommand{\hours}{\ensuremath{^\mathrm{h}}}
+\newcommand{\minutes}{\ensuremath{^\mathrm{m}}}
+\newcommand{\seconds}{\ensuremath{^\mathrm{s}}}
+
+\begin{document}
+\begin{center}
+\huge Lab 3: Exoplanet Detection
+\end{center}
+
+\section{Exoplanets and Where (How) to Find Them}
+
+\vspace{0.1in}
+
+\noindent Today, we're going to learn about exoplanets and how we can find them observationally as astronomers. Before we get started, I would like you to watch this Crash Course introduction to exoplanets.  
+\vspace{0.1in}
+
+\emph{Introduction to Exoplanets:} https://www.youtube.com/watch?v=7ATtD8x7vV0
+
+\vspace{0.1in}
+
+\begin{enumerate}
+\item  (After the video) In your own words, write a definition for ``exoplanet'' in your lab notebook. 
+\end{enumerate}
+
+\section{Observations of Exoplanets} 
+
+\noindent Planets outside our solar system are detected via the transit method when they pass between us and their host star and block a fraction of the host star's light. We will be using an online applet to help us understand the observations of varying star-planet systems.  Go to the following website: http://astro.unl.edu/naap/ and click on ``Extrasolar Planets."  At the bottom of the page are links to two simulators (Note: There is an option [swf] to download, but just click the simulation name to use the software in your browser).
+
+\vspace{0.1in}
+
+\noindent \textbf{Exoplanet Transit Simulator}
+
+\vspace{0.1in}
+
+\noindent Click on ``Exoplanet Transit Simulator." You should see two images: The first shows a simulated planet (dark grey) in front of its host star (light grey). You can control different properties of the planet and star using the sliders below. The second image shows a plot with 'Normalized Flux' on the y-axis, and time on the x-axis. When we say normalized flux, what we are really saying is \emph{the light from the star minus the light that is blocked by the planet}. 
+
+Astronomers can measure the light (or flux) from a star over time. When we see this characteristic ``dip" in the starlight, we know that we have detected an exoplanet! Complete the following (don't forget to record your answers in your lab notebook) to learn about how the properties of the star and planet affect our exoplanet observations:
+
+\begin{enumerate}
+\item  Set the \emph{Presets} box to ``Option A". List the default properties of the star and planet (see \emph{Planet Properties} and \emph{Star Properties}.
+\item In the \emph{Planet Properties} box move the ``mass" slider to change the mass of the planet.  Describe what happens to the plot of normalized flux and why.
+\item In the \emph{Planet Properties} box move the ``radius" slider to change the radius of the planet.  Describe what happens to the plot of normalized flux and why.
+\item In the \emph{Star Properties} box move the ``mass" slider to change the mass of the host star.  Describe what happens to the plot of normalized flux and why.
+\item Use the \emph{System Orientation and Phase} box to determine the range of inclinations within which this planet could be detected via the transit method.
+\item In the \emph{Presets} box select a different option.  List the parameters of this option and describe the normalized flux curve.  How is the curve different from Option A and why?
+\item What properties of the star and/or the planet might make it difficult to detect an exoplanet? Can you give an example?
+\end{enumerate}
+
+\vspace{0.1in}
+
+\section{Exploring Exoplanet Research with Astrobites} 
+
+\noindent Now that you have built an intuition for exoplanet transits, let's take a look at some research involving transit data. To do this, we will be reading some Astrobites papers. Astrobites is, ``a daily astrophysical literature journal written by graduate students in astronomy since 2010." These papers were written with the aim of making academic journal articles more accessible to undergraduate students interested in astronomical research. Astrobites is a great place to explore the latest happenings in astronomy, without a lot of the jargon found in traditional research journals. Read each of the papers below and record your answers to the following questions in your lab notebook:
+
+\vspace{0.1in}
+
+\emph{How to Confirm a Tiny Exoplanet Candidate:}
+https://astrobites.org/2013/05/31/how-to-confirm-a-tiny-exoplanet-candidate/
+
+\begin{enumerate}
+\item  Create a list of the terms you didn't understand as you were reading this paper. 
+\item Chose 2-3 to briefly research, and write a definition in you own words (it's okay if you still don't completely understand).
+\item What is at least one main takeaway of this paper?
+\item What is one question you would have for the authors of this paper?
+\item What other astronomical objects could we be falsely identifying as exoplanets?
+\item Why would it be difficult to confirm a tiny exoplanet candidate?
+\end{enumerate}
+
+\vspace{0.1in}
+
+\emph{Getting to Know the Neighborhood: Who Can See Earth Transit?}
+https://astrobites.org/2020/10/31/getting-to-know-the-neighborhood-who-can-see-earth-transit/
+
+\begin{enumerate}
+\item  Create a list of the terms you didn't understand as you were reading this paper. 
+\item Chose 2-3 to briefly research, and write a definition in you own words (it's okay if you still don't completely understand).
+\item What is at least one main takeaway of this paper?
+\item What is one question you would have for the authors of this paper?
+\item Roughly how many planets could observe Earth using the transit method?
+\item Based on this, what might be some weakness of using the transit method to find Earth (for the aliens, of course)?
+\end{enumerate}
+
+\section{Try it Yourself} 
+
+\noindent Do you think you could identify exoplanet transits in real astronomical data? If you have time,
+
+\begin{enumerate}
+\item Read through: https://www.zooniverse.org/projects/nora-dot-eisner/planet-hunters-tess/about/research
+\item Give it a try: https://www.zooniverse.org/projects/nora-dot-eisner/planet-hunters-tess
+\end{enumerate}
+
+Record how many transits you did in your notebook -- I will announce the most prolific exoplanet hunter next class!
+
+\section{Reflection} 
+
+\noindent In your lab notebook, write a brief (2-4 sentences) reflection on what you took away from this lab. If you need some inspiration, what was your favorite exercise and why? Alternatively/in addition, describe something new you learned.
+
+\end{document}
