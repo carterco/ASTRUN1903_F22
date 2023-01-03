@@ -1,0 +1,220 @@
+\documentclass[12pt]{article}
+\usepackage[includeheadfoot, top=1in, bottom=1in, hmargin=1in]{geometry}
+\usepackage{fancyhdr}
+\usepackage{verbatim}
+\usepackage{url}
+\pagestyle{fancy}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage[pdftex]{graphicx}
+\usepackage[english]{babel}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{setspace}
+\usepackage{}
+%\doublespacing
+\singlespacing
+
+\chead{}
+\rhead{Astronomy Lab} \lhead{Fall 2022}
+\renewcommand{\rightmark}{}
+%\lfoot{Douglas}
+
+\begin{document}
+
+\begin{flushleft}
+
+\begin{center}
+\Large\textbf{Lab 1, Part 1: Class Norms and Social Identity Wheel}
+\end{center}
+
+\vspace{20 pt}
+
+\paragraph{}
+ 
+Welcome to the first lab! In this classroom activity, we will critically consider our social identities and how they shape and inform our lives. We all come from different backgrounds (science, math, and personal) and learning about the universe -- especially with people you don't know -- can be scary. As we begin the semester, we want to establish the foundation for a community where collaboration and support are the norms, where everyone can succeed by working together. In order to make this explicit, we will draft classroom norms together. What are norms? They ``...are the informal rules that groups adopt to regulate and regularise group members' behaviour" (Feldman, 1984).
+
+\subsection{Post-Exercise Reflection}
+
+\begin{enumerate}
+\item Why is it important to critically reflect on our identities, especially in a science lab? 
+\item What is the value of completing activities like this in our class?
+\item What is one concern about you have about this class? How can I (or we, as a class) help alleviate it?
+\end{enumerate}
+
+\begin{center}
+\Large\textbf{Lab 1, Part 2: Orders of Magnitude, Distances, and Scales in the Universe}
+\end{center}
+
+\vspace{20 pt}
+
+\paragraph{}
+Today, we'll explore some fundamental concepts used in astronomy. Astronomy is a field of extremes, and today we learn how to accurately quantify them. The goal of today's lab is to give you an understanding of how far away many astronomical objects are, and how the sizes of objects compare with the distance between them. 
+
+\section{Scales of the Universe}
+\subsection{Orders of Magnitude}
+\paragraph{}
+Scientists use orders of magnitude to describe the sizes of various objects.  In many cases, it is not necessary or practical to know an object's precise size. Its order of magnitude gives you an idea of how large it is.  Strictly speaking, the order of magnitude of a value is the ``power of ten" that is closest to the value.  Although the Sun's radius is $695,000,000$~m, it's enough to know that its radius is \emph{of order} $10^9$~m. 
+\paragraph{}
+I gave the Sun's radius with many zeros in the number, but we can write it in a more compact way by using scientific notation.  To write a number in scientific notation, find the first non-zero digit in the highest place (the left-most place; in this case it's the 6), and put the decimal point after that digit.  Then count how many places you moved the decimal place, which gives you the power of ten (in this case it's 8; convince yourself that this is true).  If you move the decimal place left in order to change the format to scientific notation, the power of ten is positive.  If you have to move the decimal place to the right for scientific notation (i.e. the number is less than 1), then the power of ten is negative.  We can then say that the Sun's radius is $6.95\times10^8$.  
+\paragraph{}
+While it's tempting to take the power of ten given in scientific notation as an object's order of magnitude, be careful.  You need to round the number to the nearest power of ten, and in some cases, the nearest power of ten is the next one up.  This is true for the Sun's radius - the power of ten used in scientific notation is 8, but since $6.95\times10^8$ rounds \emph{up} to $10\times10^8 = 10^9$, the order of magnitude is actually $10^9$.  
+\paragraph{}
+For practice, find the order of magnitude of the following.  Don't forget to include the unit!
+\begin{enumerate}
+\item \textbf{The Bohr Radius}, or the size of a hydrogen atom, $5.3 \times 10^{-11}$ m %10^-10 m
+\item \textbf{The Empire State Building} 358 m %10^2 m
+\item \textbf{The Universe} $4.32 \times 10^{26}$ meters
+\item \textbf{Two Years} 730.5 days
+\item \textbf{The Hubble Space Telescope} 11,110 kg
+\end{enumerate}
+
+\subsection{Unit Conversions}
+\paragraph{}
+Now look at some measurements that are \emph{not} given in meters.  To find their orders of magnitude, you'll first need to convert the value from the given units to meters.  
+\paragraph{}
+Centimeters, inches, miles, and meters are examples of different units.  When reporting a measurement it is very important to include the unit.  Every number we will deal with in this lab represents something and requires a unit.  Class is not 3 long - it is 3 \emph{hours} long; the Brooklyn Bridge is not 1.13 long - it is 1.13 \emph{miles} long.  
+\paragraph{}
+To convert units, it's best to multiply the value by a fraction that is equal to one: 1 year/365 days, 12 inches/1 foot, etc.  Sometimes, it may take several steps to reach the unit you want.  For example, to convert 2.3 years to hours:
+
+\begin{equation}
+2.3~years \left(\frac{365~days}{1~year}\right) \left(\frac{24~hours}{1~day}\right) = 20148~hours \approx 10^4~hours
+\end{equation}
+
+In the following problems, convert the given values to meters, then give the order of magnitude.  Use the table given below.  
+\begin{enumerate}
+\item \textbf{Humans} Let's put it at 5'9'', or use your own height if you wish. %5.75 ft = 1.75*10^0 m, or 1 m
+\item \textbf{Distance from the Sun to the nearest star} 4.243 ly % 4.01*10^16 m
+\item \textbf{One Mile}
+\item \textbf{The radius of the Earth} 6,371 km %10^7 m
+\item \textbf{The Hubble Space Telescope (length)} 43.5 ft
+\end{enumerate}
+
+
+\subsection{Order of Magnitude Differences}
+Orders of magnitude are great for making (rough) comparisons. The Sun is about $10^6$ times larger than the Earth, or six orders of magnitude larger.  Saying ``New York City has a population an order of magnitude greater than North Dakota" means ``New York City's population is about $10^1$ times the population of North Dakota". 
+\paragraph{}
+To calculate the order of magnitude difference between thing A and thing B, you divide their orders of magnitude (OOM):
+\begin{equation}
+\frac{OOM(A)}{OOM(B)}
+\end{equation}
+
+Remember that when you divide two of the same number with different exponents, you simply subtract the bottom exponent from the top exponent:
+
+\begin{equation}
+\frac{10^x}{10^y} = 10^{x-y}
+\end{equation}
+
+\begin{enumerate}
+\item The distance from Earth to the Sun is called an Astronomical Unit (AU).  What's the order of magnitude difference between our distance from the Sun and the radius of the Earth?
+\item What's the order of magnitude difference between Earth's distance from the Sun and the distance to the nearest star?
+\item Estimate the order of magnitude difference between the length of the hallway and the thickness of a human hair. You can use a ruler to measure your hair, but you may not measure the hallway. Make reasonable assumptions in whichever units you wish, and convert those to meters.  Show your work. % Hallway: 10 or 100 m, Hair: 0.1 mm (~200 microns), so 10^5 difference
+\end{enumerate}
+
+\paragraph{}
+\begin{tabular}{cc}
+\hline
+\hline
+{\bf1 of these} & {\bf= this many of these} \\
+\hline
+1 inch ($''$) & 2.54 centimeter (cm) \\
+1 meter (m) & 100 cm \\
+1 kilometer (km) & 1000 m \\
+1 foot ($'$) & 12$''$ \\
+1 mile & 6285$'$ \\
+1 Astronomical Unit (AU*) & $1.49\times10^8$ km \\
+1 light-year (ly) & $9.46\times10^{12}$ km \\
+1 light-year (ly) & 63241 AU \\
+\hline
+\hline
+*1 AU = the distance from Earth to the Sun
+\end{tabular}
+
+\subsection{Powers of Ten}
+\paragraph{}
+%We're going to watch a short movie on powers of ten.
+\begin{enumerate} 
+\item Why is it useful for scientists to use scientific notation and orders of magnitude when describing things in the universe?
+\end{enumerate}
+
+% \section{Scaling the Solar System}
+
+% \subsection{Estimating Sizes}
+
+% How good is your intuition for astronomical sizes? Write down your best estimate for the relative sizes of solar system objects.  Give concrete examples (swimming pool, grapefruit, grain of sand, Manhattan...). I'll only be grading this section for completeness, not accuracy, but you'll see how accurate you were at the end of lab!
+
+% \begin{enumerate}
+% \item If Earth is the size of a penny, how big is the Sun?
+% \item On the same scale, how big is Jupiter?
+% \item If the Sun is the size of a basketball, how big is Jupiter?
+% \item On the same scale, if the Sun is here in Pupin, where is the nearest star?
+% \end{enumerate}
+
+% \subsection{Setting the Scale}
+
+% Now we'll set up a scale model of the solar system with the 
+% Earth the size of a penny (19 mm).
+% %Sun the size of a basketball (25 cm in diameter)
+
+% \begin{enumerate}
+% \item What is the diameter of the Earth in km? (see the attached table)
+% \item Now set up the scale factor, $F$.  A penny is $F$ times SMALLER than the Earth, or $$R_{penny} = F \times R_{Earth}$$  (Don't forget to convert your units!)
+% \item On this scale, what's the distance between Earth and the Sun?
+% %\item Title the attached table so that it's clear what scale you're using.
+% \item Fill out the table to calculate the sizes of and distances between Solar System objects on this scale. Make sure there's at least one clear example of your calculations in your notebook, but you don't have to show every calculation if you don't want to. 
+% \item Try to come up with real-world objects that are about the size of each object. \\
+% \indent Bonus: scale the Moon's size and its distance from Earth, and scale Saturn's ring system. (You may need to do some online research for this one)
+% \item Draw circles in your notebook at the right scale for each planet, or trace an object that's the same size.
+% \end{enumerate}
+
+%\subsection{Setting a different Scale}
+
+%Now we'll set up a scale model of the solar system with Earth the size of a penny (19 mm).  Repeat the steps in the previous section using the other blank table, but use Earth for question 1.  Don't forget a title for your table, and be careful with units! Finding real-world objects should be a little easier this time.
+
+% \subsection{A Solar System Walk (\textit{Optional})}
+
+% Try doing this exercise after you finish the rest of the lab.  Bring your notebook so you can compare your scale drawings! Before you go, let's estimate where some things will be:
+% %If we have time, we'll go on a solar system walk.  We'll start at the door of Pupin, facing campus, with the Sun the size of a basketball. We'll walk down campus on as straight a path as possible before switching over to Broadway at 114th st. Bring your notebook so you can compare your scale drawings! Before we go, let's estimate where some things will be:
+
+% \begin{enumerate}
+% \item Where do you think Earth will be?
+% \item How about Jupiter? Saturn?
+% \item Which planets will be outside Columbia's campus?
+% \item Where will the nearest star be? 
+% %(You can use the classroom globes to estimate this)
+% \end{enumerate}
+% {\it The Solar System Walk was (mostly) written by Marcel Ag{\"u}eros}
+
+% \vspace{50 pt}
+% %\pagebreak
+% \section{Conclusions}
+% \begin{enumerate}
+% \item Compare your initial estimates from Section 2.1 to your calculations in Section 2.2 - how close were you? 
+% \item How does the the size of the planets compare to their distances from the Sun?  What about the size of the Sun compared to the distance of the nearest star?
+% \item Is the universe mostly made up of stars and planets, or empty space? Explain your answer in one paragraph.
+% \item Do you have any comments or questions? \\ 
+% %(This is a trick question, because to get credit for this you have to answer yes! If you understood the lab perfectly, then try to come up with a further application of these ideas, or tell me which part of the lab you liked best. If something was particularly confusing, please tell me!)
+% \end{enumerate}
+
+
+% \pagebreak
+% \section*{Solar System Walk}
+
+% \begin{enumerate}
+% \item Begin at the doors of Pupin. The Sun is the size of a basketball (roughly 25 cm in diameter) and the rest of the solar system is represented to this scale. 
+% \item Mercury: Walk south 10 m, to the edge of the second green space on your left (by the lamp post). Mercury is here, a speck less than 1 mm (~0.08 cm!) in diameter. 
+% \item Venus: Walk another 9 m, roughly three-quarters of the length of the green space. Venus is enjoying an evening snack here. At this scale, she is about 0.2 cm in diameter. 
+% \item Earth: About halfway between the first green space and the next one on your left, you've come home. The Earth is slightly larger than Venus. This is 1 AU from the Sun (27 m on this scale), and light takes about 8 minutes to get here from the Sun. 
+% \item Moon: The moon is about 7 cm from the Earth on this scale. 
+% \item Mars: The red planet is waiting for the elevator, roughly 40 m from the Sun (1.5 AU) on this scale. Mars is about 0.1 cm in diameter. At the end of the Sun's life, it will become a red giant and expand until it fills Mars's orbit...
+% \item Asteroid Belt: You have a long-ish walk to Jupiter. During this time, you'll be passing through the Asteroid Belt, which fills the space between Mars and Jupiter; its ``center" is roughly by the entrance to the Computer Center, across from the gym. The asteroids are too small to even represent on this scale. 
+% \item Jupiter: Jupiter is having its picture taken at the foot of the Lion statue ahead of us (roughly 5 AU from the Sun). It is 2.6 cm in diameter, or just a bit larger than a dollar coin. 
+% %From here things are too far to walk to. 
+% \item Saturn: Saturn is reading a book on one of the green patches on the near side of College Walk. It is about 10 AU from the Sun and 2.2 cm in diameter on this scale, or about the size of a nickel.
+% \item Uranus: Uranus is hiding in its room in McBain, 19 AU from the Sun (just over 500 m on this scale). Uranus is just under 1 cm in diameter. 
+% \item Neptune: Neptune is headed to pick up an everything bagel at Absolute Bagels, on Broadway around 109th Street (30 AU). On this scale, Neptune is slightly smaller than  Uranus (0.9 cm) in diameter. 
+% \item Pluto: Pluto is about to step into Flor de Mayo, on Broadway near 101st St. Pluto is less than half the size of Mercury and is about 40 AU from the Sun. 
+% \end{enumerate}
+
+\end{flushleft}
+\end{document}
